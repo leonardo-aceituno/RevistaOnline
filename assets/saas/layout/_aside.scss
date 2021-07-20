@@ -1,0 +1,38 @@
+.aside__box{
+    margin-top: 2rem;
+}
+
+.cabecera-listado{
+    background-color: orchid;
+    padding: .5rem;
+}
+
+.aside-title{
+    border-bottom: 1px solid gray;
+    margin-bottom: 1rem;
+    font-family: $montserrat;
+    font-family: $montserrat-bold;
+}
+
+
+
+.aside__menu--item{
+    list-style: none;
+    font-family: $montserrat;
+}
+
+.aside-text{
+    font-family: $montserrat;
+    font-family: $montserrat-regular;
+    font-size: 1rem;
+
+}
+
+
+
+
+@media (max-width: 768px) {
+    .aside__box {
+        display: none;
+    }
+}
